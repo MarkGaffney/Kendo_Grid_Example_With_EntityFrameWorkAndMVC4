@@ -20,6 +20,12 @@ namespace KendoUI.Models
         [DisplayName("Surname")]
         public String LastName { get; set; }
 
+        [DisplayName("Gender")]
+        public Boolean Gender { get; set; }
+
+        [DisplayName("IsCitizen")]
+        public Boolean IsCitizen { get; set; }
+
          public virtual int donkey { get; set; }
 
         [DisplayName("DOB")]
