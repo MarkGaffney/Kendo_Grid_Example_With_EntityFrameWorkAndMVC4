@@ -1,0 +1,7 @@
+C:\Junk\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\KendoGridApplication.dll
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\KendoGridApplication.pdb
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\EntityFramework.xml
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Release\ResolveAssemblyReference.cache
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Release\KendoGridApplication.dll
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Release\KendoGridApplication.pdb

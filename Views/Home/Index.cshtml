@@ -1,0 +1,69 @@
+﻿@(Html.Kendo().Grid<KendoUI.Models.ContactModel>()
+    .Name("Grid")    
+    .Columns(columns => {        
+        columns.Bound(p => p.FirstName);
+        columns.Bound(p => p.LastName); //.ClientTemplate("#=Employee.EmployeeName#");
+        //columns.Bound(p => p.LastName).ClientTemplate("#=Employee.EmployeeName#");
+        columns.Bound(p => p.Salary);        
+    })    
+    .ToolBar(toolBar => toolBar.Save())
+    .Editable(editable => editable.Mode(GridEditMode.InCell))
+    .Pageable()
+    .Sortable()
+    .Scrollable()
+    .DataSource(dataSource => dataSource        
+        .Ajax()         
+        .Batch(true)
+        .ServerOperation(false)
+        .Events(events => events.Error("error_handler"))
+        .Model(model => { 
+            model.Id(p => p.ID);
+            model.Field(p => p.ID).Editable(false);
+        })      
+        .Read(read => read.Action("Read", "Home"))
+        .Update(update => update.Action("EditingCustom_Update", "Grid"))       
+    )
+)
+
+@*@(Html.Kendo().DropDownList()
+        .Name("Employee")
+        .DataValueField("EmployeeID")
+        .DataTextField("EmployeeName")
+        .BindTo((System.Collections.IEnumerable)ViewData["employees"])
+)*@
+
+<script type="text/javascript">
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "Errors:\n";
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            alert(message);
+        }
+    }
+</script>
+
+
+@*@(Html.Kendo().Grid<KendoUI.Models.ContactModel>()
+      .Name("Grid")
+          .Columns(columns =>
+          {
+              columns.Bound(o => o.LastName).ClientTemplate("#=ContactModel.LastName#");
+              columns.Bound(o => o.FirstName);
+              columns.Bound(o => o.DOB);
+          
+          })
+      .Pageable()
+      .Sortable()
+      .Navigatable()
+      ////    .Editable("popup")
+      ////  editable: "popup"
+      .Filterable()
+      .DataSource(dataSource => dataSource.Ajax().Read(read => read.Action("Read", "Home")))
+*@
+

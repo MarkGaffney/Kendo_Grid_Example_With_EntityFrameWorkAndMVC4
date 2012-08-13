@@ -1,0 +1,19 @@
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\bin\KendoGridApplication.dll
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\bin\KendoGridApplication.pdb
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\bin\EntityFramework.dll
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\bin\EntityFramework.xml
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\obj\Debug\KendoGridApplication.dll
+C:\Users\korchev\Documents\Visual Studio 2010\Projects\KendoGridApplication\obj\Debug\KendoGridApplication.pdb
+C:\Junk\bin\KendoGridApplication.dll
+C:\Junk\bin\KendoGridApplication.pdb
+C:\Junk\bin\EntityFramework.xml
+C:\Junk\obj\Debug\ResolveAssemblyReference.cache
+C:\Junk\obj\Debug\KendoGridApplication.dll
+C:\Junk\obj\Debug\KendoGridApplication.pdb
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\KendoGridApplication.dll
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\KendoGridApplication.pdb
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\bin\EntityFramework.xml
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Debug\KendoGridApplication.dll
+C:\Dev\KendoUI_Example_WithEntityFramework_MVC\obj\Debug\KendoGridApplication.pdb
