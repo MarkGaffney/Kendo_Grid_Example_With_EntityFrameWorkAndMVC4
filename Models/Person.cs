@@ -19,6 +19,9 @@ namespace KendoUI.Models
         public String FirstName { get; set; } 
         [DisplayName("Surname")]
         public String LastName { get; set; }
+        
+        [DisplayName("Title")]
+        public String Title { get; set; }
 
         [DisplayName("Gender")]
         public Boolean Gender { get; set; }
